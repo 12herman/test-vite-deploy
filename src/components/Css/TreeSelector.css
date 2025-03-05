@@ -1,0 +1,44 @@
+/* Change label color only (selected item inside selector) */
+.ant-select-selection-item {
+    color: #e66a2c !important; /* Custom label color */
+  }
+  
+  /* Change placeholder color */
+  .ant-select-selection-placeholder {
+    color: #e66a2c !important; /* Placeholder text */
+  }
+  .ant-select-selector{
+    border: 1px solid  var(--color-accent-content) !important;
+
+  }
+  .ant-select-arrow{
+    color: #e66a2c !important; 
+    
+  }
+  .ant-select-dropdown, .ant-select-tree-list{
+    background: var(--color-accent) !important;
+    color: var(--color-base-content) !important;
+  }
+
+  /* .ant-select-tree-list:hover{
+    color: #fff;
+  } */
+
+  .ant-select-tree-node-content-wrapper:hover{
+    color: var(--color-primary) !important; 
+
+  }
+
+  /* Change hover background color */
+
+.ant-select-tree-treenode:hover {
+    /* background-color: var(--color-base-content) !important;  */
+    color: var(--color-primary) !important; 
+  }
+  
+  /* Optional: Change active/selected item color */
+  .ant-select-tree-treenode-selected {
+    /* background-color: var(--color-primary) !important;  */
+    /* color: var(--color-primary); */
+  }
+  
